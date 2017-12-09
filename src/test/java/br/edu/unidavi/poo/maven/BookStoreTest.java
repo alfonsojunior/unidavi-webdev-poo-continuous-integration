@@ -1,3 +1,5 @@
+package br.edu.unidavi.poo.maven;
+
 import static org.junit.Assert.*;
 
 import java.util.Collections;

@@ -1,3 +1,5 @@
+package br.edu.unidavi.poo.maven;
+
 import java.util.logging.Logger;
 
 public class App {
