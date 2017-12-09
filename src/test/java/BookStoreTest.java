@@ -8,7 +8,7 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
-@Ignore public class BookStoreTest {
+public class BookStoreTest {
 
   // This is sufficient accuracy since we're handling currency values, which should be equal to within 2 decimal places.
   private static final double EQUALITY_TOLERANCE = 0.001;
@@ -20,6 +20,7 @@ import org.junit.Test;
     bookStore = new BookStore();
   }
 
+  //@Ignore("Remove to run test")
   @Test
   public void onlyASingleBook() {
     List<Integer> books = Collections.singletonList(1);

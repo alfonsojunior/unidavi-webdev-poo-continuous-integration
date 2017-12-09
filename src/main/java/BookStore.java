@@ -17,12 +17,13 @@ public class BookStore {
 		double retorno = 0.00;
 		
 		Set<Integer> unique = new HashSet<Integer>(books);
-		System.out.println(unique);
+		//System.out.println(unique);
 		/*
 		for (Integer key : unique) {
 		    System.out.println(key + ": " + Collections.frequency(books, key));
 		}
 		*/
+		retorno = books.size() * preco;
 		
 		return retorno;
 		
